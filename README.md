@@ -11,12 +11,14 @@ It provides:
  
 ## Usage
 
-Just turn on the game and click Hack!
+Donwload link (V1): [Here!](https://dl.dropboxusercontent.com/u/20820651/TheHackingOfIsaac.zip)
+
+Run this app and just turn on the game and click Hack!
 
 Enjoy!
 
  
-## How to build
+## How to build (for developers)
 
 First, you need to compile the C source codes, which do the actual magic.
 
