@@ -13,6 +13,8 @@ It provides:
 
 Donwload link (V1): [Here!](https://dl.dropboxusercontent.com/u/20820651/TheHackingOfIsaac.zip)
 
+![screenshot 1](http://i.imgur.com/7DtjYo1.png)
+
 Run this app and just turn on the game and click Hack!
 
 Enjoy!
