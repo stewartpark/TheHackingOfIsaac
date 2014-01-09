@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36574557187ED709005C84F2"
-               BuildableName = "IsaacHack.app"
+               BuildableName = "TheHackingOfIsaac.app"
                BlueprintName = "TheHackingOfIsaac"
                ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36574578187ED709005C84F2"
-               BuildableName = "IsaacHackTests.xctest"
+               BuildableName = "TheHackingOfIsaacTests.xctest"
                BlueprintName = "TheHackingOfIsaacTests"
                ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36574557187ED709005C84F2"
-            BuildableName = "IsaacHack.app"
+            BuildableName = "TheHackingOfIsaac.app"
             BlueprintName = "TheHackingOfIsaac"
             ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36574557187ED709005C84F2"
-            BuildableName = "IsaacHack.app"
+            BuildableName = "TheHackingOfIsaac.app"
             BlueprintName = "TheHackingOfIsaac"
             ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36574557187ED709005C84F2"
-            BuildableName = "IsaacHack.app"
+            BuildableName = "TheHackingOfIsaac.app"
             BlueprintName = "TheHackingOfIsaac"
             ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
          </BuildableReference>

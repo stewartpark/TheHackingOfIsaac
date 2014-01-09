@@ -25,7 +25,6 @@
 		36D6EA27187EEDD0008011AE /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA26187EEDD0008011AE /* hat.png */; };
 		36D6EA29187EEE59008011AE /* magicwand.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA28187EEE59008011AE /* magicwand.png */; };
 		36D6EA2F187EEF26008011AE /* injector.c in Sources */ = {isa = PBXBuildFile; fileRef = 36D6EA2B187EEF26008011AE /* injector.c */; };
-		36D6EA31187EEF26008011AE /* mach_inject.c in Sources */ = {isa = PBXBuildFile; fileRef = 36D6EA2D187EEF26008011AE /* mach_inject.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +64,6 @@
 		36D6EA26187EEDD0008011AE /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hat.png; sourceTree = "<group>"; };
 		36D6EA28187EEE59008011AE /* magicwand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magicwand.png; sourceTree = "<group>"; };
 		36D6EA2B187EEF26008011AE /* injector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = injector.c; sourceTree = "<group>"; };
-		36D6EA2D187EEF26008011AE /* mach_inject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_inject.c; sourceTree = "<group>"; };
-		36D6EA2E187EEF26008011AE /* mach_inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_inject.h; sourceTree = "<group>"; };
 		36D6EA32187EF012008011AE /* buildBinary.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = buildBinary.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,8 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				36D6EA2B187EEF26008011AE /* injector.c */,
-				36D6EA2D187EEF26008011AE /* mach_inject.c */,
-				36D6EA2E187EEF26008011AE /* mach_inject.h */,
 			);
 			name = "Binary source code";
 			sourceTree = "<group>";
@@ -301,7 +296,6 @@
 				3657456F187ED709005C84F2 /* NDAppDelegate.m in Sources */,
 				36D6EA2F187EEF26008011AE /* injector.c in Sources */,
 				36574568187ED709005C84F2 /* main.m in Sources */,
-				36D6EA31187EEF26008011AE /* mach_inject.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
