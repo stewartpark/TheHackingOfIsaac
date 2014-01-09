@@ -24,7 +24,6 @@
 		36D6EA1F187EEBA5008011AE /* keyboard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA1E187EEBA5008011AE /* keyboard.jpeg */; };
 		36D6EA27187EEDD0008011AE /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA26187EEDD0008011AE /* hat.png */; };
 		36D6EA29187EEE59008011AE /* magicwand.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA28187EEE59008011AE /* magicwand.png */; };
-		36D6EA2F187EEF26008011AE /* injector.c in Sources */ = {isa = PBXBuildFile; fileRef = 36D6EA2B187EEF26008011AE /* injector.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -294,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3657456F187ED709005C84F2 /* NDAppDelegate.m in Sources */,
-				36D6EA2F187EEF26008011AE /* injector.c in Sources */,
 				36574568187ED709005C84F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
