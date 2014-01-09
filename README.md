@@ -6,7 +6,9 @@ A user-friendly game hack for the Binding of Isaac Mac version
 It provides:
  - Infinite health
  - Infinite item use
- 
+ - Infinite bombs/keys/coins
+ - Max damage (250)
+ - Max fire rate
  
  
 ## Usage
