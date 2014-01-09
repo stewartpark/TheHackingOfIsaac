@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36574557187ED709005C84F2"
                BuildableName = "IsaacHack.app"
-               BlueprintName = "IsaacHack"
-               ReferencedContainer = "container:IsaacHack.xcodeproj">
+               BlueprintName = "TheHackingOfIsaac"
+               ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36574578187ED709005C84F2"
                BuildableName = "IsaacHackTests.xctest"
-               BlueprintName = "IsaacHackTests"
-               ReferencedContainer = "container:IsaacHack.xcodeproj">
+               BlueprintName = "TheHackingOfIsaacTests"
+               ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36574557187ED709005C84F2"
             BuildableName = "IsaacHack.app"
-            BlueprintName = "IsaacHack"
-            ReferencedContainer = "container:IsaacHack.xcodeproj">
+            BlueprintName = "TheHackingOfIsaac"
+            ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36574557187ED709005C84F2"
             BuildableName = "IsaacHack.app"
-            BlueprintName = "IsaacHack"
-            ReferencedContainer = "container:IsaacHack.xcodeproj">
+            BlueprintName = "TheHackingOfIsaac"
+            ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36574557187ED709005C84F2"
             BuildableName = "IsaacHack.app"
-            BlueprintName = "IsaacHack"
-            ReferencedContainer = "container:IsaacHack.xcodeproj">
+            BlueprintName = "TheHackingOfIsaac"
+            ReferencedContainer = "container:TheHackingOfIsaac.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

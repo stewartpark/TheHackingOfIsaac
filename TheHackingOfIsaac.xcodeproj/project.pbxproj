@@ -18,6 +18,14 @@
 		3657457C187ED709005C84F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3657455B187ED709005C84F2 /* Cocoa.framework */; };
 		36574584187ED709005C84F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36574582187ED709005C84F2 /* InfoPlist.strings */; };
 		36574586187ED709005C84F2 /* IsaacHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36574585187ED709005C84F2 /* IsaacHackTests.m */; };
+		3674F243187ED9A000B34596 /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3674F242187ED9A000B34596 /* bg.jpeg */; };
+		36D6EA1B187EDE57008011AE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D6EA1A187EDE57008011AE /* Security.framework */; };
+		36D6EA1D187EDE79008011AE /* binary in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA1C187EDE79008011AE /* binary */; };
+		36D6EA1F187EEBA5008011AE /* keyboard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA1E187EEBA5008011AE /* keyboard.jpeg */; };
+		36D6EA27187EEDD0008011AE /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA26187EEDD0008011AE /* hat.png */; };
+		36D6EA29187EEE59008011AE /* magicwand.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D6EA28187EEE59008011AE /* magicwand.png */; };
+		36D6EA2F187EEF26008011AE /* injector.c in Sources */ = {isa = PBXBuildFile; fileRef = 36D6EA2B187EEF26008011AE /* injector.c */; };
+		36D6EA31187EEF26008011AE /* mach_inject.c in Sources */ = {isa = PBXBuildFile; fileRef = 36D6EA2D187EEF26008011AE /* mach_inject.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +39,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36574558187ED709005C84F2 /* IsaacHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsaacHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36574558187ED709005C84F2 /* TheHackingOfIsaac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheHackingOfIsaac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3657455B187ED709005C84F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3657455E187ED709005C84F2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3657455F187ED709005C84F2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		36574560187ED709005C84F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		36574563187ED709005C84F2 /* IsaacHack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IsaacHack-Info.plist"; sourceTree = "<group>"; };
+		36574563187ED709005C84F2 /* TheHackingOfIsaac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheHackingOfIsaac-Info.plist"; sourceTree = "<group>"; };
 		36574565187ED709005C84F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36574567187ED709005C84F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36574569187ED709005C84F2 /* IsaacHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IsaacHack-Prefix.pch"; sourceTree = "<group>"; };
+		36574569187ED709005C84F2 /* TheHackingOfIsaac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheHackingOfIsaac-Prefix.pch"; sourceTree = "<group>"; };
 		3657456B187ED709005C84F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		3657456D187ED709005C84F2 /* NDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDAppDelegate.h; sourceTree = "<group>"; };
 		3657456E187ED709005C84F2 /* NDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDAppDelegate.m; sourceTree = "<group>"; };
 		36574571187ED709005C84F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		36574573187ED709005C84F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		36574579187ED709005C84F2 /* IsaacHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IsaacHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36574579187ED709005C84F2 /* TheHackingOfIsaacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheHackingOfIsaacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3657457A187ED709005C84F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		36574581187ED709005C84F2 /* IsaacHackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IsaacHackTests-Info.plist"; sourceTree = "<group>"; };
+		36574581187ED709005C84F2 /* TheHackingOfIsaacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheHackingOfIsaacTests-Info.plist"; sourceTree = "<group>"; };
 		36574583187ED709005C84F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36574585187ED709005C84F2 /* IsaacHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsaacHackTests.m; sourceTree = "<group>"; };
+		3674F242187ED9A000B34596 /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
+		36D6EA1A187EDE57008011AE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		36D6EA1C187EDE79008011AE /* binary */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = binary; sourceTree = "<group>"; };
+		36D6EA1E187EEBA5008011AE /* keyboard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keyboard.jpeg; sourceTree = "<group>"; };
+		36D6EA26187EEDD0008011AE /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hat.png; sourceTree = "<group>"; };
+		36D6EA28187EEE59008011AE /* magicwand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magicwand.png; sourceTree = "<group>"; };
+		36D6EA2B187EEF26008011AE /* injector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = injector.c; sourceTree = "<group>"; };
+		36D6EA2D187EEF26008011AE /* mach_inject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_inject.c; sourceTree = "<group>"; };
+		36D6EA2E187EEF26008011AE /* mach_inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_inject.h; sourceTree = "<group>"; };
+		36D6EA32187EF012008011AE /* buildBinary.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = buildBinary.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D6EA1B187EDE57008011AE /* Security.framework in Frameworks */,
 				3657455C187ED709005C84F2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,8 +105,8 @@
 		36574559187ED709005C84F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36574558187ED709005C84F2 /* IsaacHack.app */,
-				36574579187ED709005C84F2 /* IsaacHackTests.xctest */,
+				36574558187ED709005C84F2 /* TheHackingOfIsaac.app */,
+				36574579187ED709005C84F2 /* TheHackingOfIsaacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +114,7 @@
 		3657455A187ED709005C84F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36D6EA1A187EDE57008011AE /* Security.framework */,
 				3657455B187ED709005C84F2 /* Cocoa.framework */,
 				3657457A187ED709005C84F2 /* XCTest.framework */,
 				3657455D187ED709005C84F2 /* Other Frameworks */,
@@ -115,11 +135,18 @@
 		36574561187ED709005C84F2 /* IsaacHack */ = {
 			isa = PBXGroup;
 			children = (
+				36D6EA2A187EEF11008011AE /* Binary source code */,
+				36D6EA1C187EDE79008011AE /* binary */,
+				36D6EA1E187EEBA5008011AE /* keyboard.jpeg */,
+				36D6EA26187EEDD0008011AE /* hat.png */,
+				36D6EA28187EEE59008011AE /* magicwand.png */,
+				3674F242187ED9A000B34596 /* bg.jpeg */,
 				3657456D187ED709005C84F2 /* NDAppDelegate.h */,
 				3657456E187ED709005C84F2 /* NDAppDelegate.m */,
 				36574570187ED709005C84F2 /* MainMenu.xib */,
 				36574573187ED709005C84F2 /* Images.xcassets */,
 				36574562187ED709005C84F2 /* Supporting Files */,
+				36D6EA32187EF012008011AE /* buildBinary.sh */,
 			);
 			path = IsaacHack;
 			sourceTree = "<group>";
@@ -127,10 +154,10 @@
 		36574562187ED709005C84F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				36574563187ED709005C84F2 /* IsaacHack-Info.plist */,
+				36574563187ED709005C84F2 /* TheHackingOfIsaac-Info.plist */,
 				36574564187ED709005C84F2 /* InfoPlist.strings */,
 				36574567187ED709005C84F2 /* main.m */,
-				36574569187ED709005C84F2 /* IsaacHack-Prefix.pch */,
+				36574569187ED709005C84F2 /* TheHackingOfIsaac-Prefix.pch */,
 				3657456A187ED709005C84F2 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -148,18 +175,28 @@
 		36574580187ED709005C84F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				36574581187ED709005C84F2 /* IsaacHackTests-Info.plist */,
+				36574581187ED709005C84F2 /* TheHackingOfIsaacTests-Info.plist */,
 				36574582187ED709005C84F2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		36D6EA2A187EEF11008011AE /* Binary source code */ = {
+			isa = PBXGroup;
+			children = (
+				36D6EA2B187EEF26008011AE /* injector.c */,
+				36D6EA2D187EEF26008011AE /* mach_inject.c */,
+				36D6EA2E187EEF26008011AE /* mach_inject.h */,
+			);
+			name = "Binary source code";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36574557187ED709005C84F2 /* IsaacHack */ = {
+		36574557187ED709005C84F2 /* TheHackingOfIsaac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36574589187ED709005C84F2 /* Build configuration list for PBXNativeTarget "IsaacHack" */;
+			buildConfigurationList = 36574589187ED709005C84F2 /* Build configuration list for PBXNativeTarget "TheHackingOfIsaac" */;
 			buildPhases = (
 				36574554187ED709005C84F2 /* Sources */,
 				36574555187ED709005C84F2 /* Frameworks */,
@@ -169,14 +206,14 @@
 			);
 			dependencies = (
 			);
-			name = IsaacHack;
+			name = TheHackingOfIsaac;
 			productName = IsaacHack;
-			productReference = 36574558187ED709005C84F2 /* IsaacHack.app */;
+			productReference = 36574558187ED709005C84F2 /* TheHackingOfIsaac.app */;
 			productType = "com.apple.product-type.application";
 		};
-		36574578187ED709005C84F2 /* IsaacHackTests */ = {
+		36574578187ED709005C84F2 /* TheHackingOfIsaacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3657458C187ED709005C84F2 /* Build configuration list for PBXNativeTarget "IsaacHackTests" */;
+			buildConfigurationList = 3657458C187ED709005C84F2 /* Build configuration list for PBXNativeTarget "TheHackingOfIsaacTests" */;
 			buildPhases = (
 				36574575187ED709005C84F2 /* Sources */,
 				36574576187ED709005C84F2 /* Frameworks */,
@@ -187,9 +224,9 @@
 			dependencies = (
 				3657457E187ED709005C84F2 /* PBXTargetDependency */,
 			);
-			name = IsaacHackTests;
+			name = TheHackingOfIsaacTests;
 			productName = IsaacHackTests;
-			productReference = 36574579187ED709005C84F2 /* IsaacHackTests.xctest */;
+			productReference = 36574579187ED709005C84F2 /* TheHackingOfIsaacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -202,12 +239,15 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ju-yeong Park";
 				TargetAttributes = {
+					36574557187ED709005C84F2 = {
+						DevelopmentTeam = 9A85275JQK;
+					};
 					36574578187ED709005C84F2 = {
 						TestTargetID = 36574557187ED709005C84F2;
 					};
 				};
 			};
-			buildConfigurationList = 36574553187ED709005C84F2 /* Build configuration list for PBXProject "IsaacHack" */;
+			buildConfigurationList = 36574553187ED709005C84F2 /* Build configuration list for PBXProject "TheHackingOfIsaac" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +260,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36574557187ED709005C84F2 /* IsaacHack */,
-				36574578187ED709005C84F2 /* IsaacHackTests */,
+				36574557187ED709005C84F2 /* TheHackingOfIsaac */,
+				36574578187ED709005C84F2 /* TheHackingOfIsaacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,8 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3674F243187ED9A000B34596 /* bg.jpeg in Resources */,
 				36574566187ED709005C84F2 /* InfoPlist.strings in Resources */,
+				36D6EA1D187EDE79008011AE /* binary in Resources */,
+				36D6EA27187EEDD0008011AE /* hat.png in Resources */,
+				36D6EA1F187EEBA5008011AE /* keyboard.jpeg in Resources */,
 				36574574187ED709005C84F2 /* Images.xcassets in Resources */,
+				36D6EA29187EEE59008011AE /* magicwand.png in Resources */,
 				3657456C187ED709005C84F2 /* Credits.rtf in Resources */,
 				36574572187ED709005C84F2 /* MainMenu.xib in Resources */,
 			);
@@ -254,7 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3657456F187ED709005C84F2 /* NDAppDelegate.m in Sources */,
+				36D6EA2F187EEF26008011AE /* injector.c in Sources */,
 				36574568187ED709005C84F2 /* main.m in Sources */,
+				36D6EA31187EEF26008011AE /* mach_inject.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +318,7 @@
 /* Begin PBXTargetDependency section */
 		3657457E187ED709005C84F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36574557187ED709005C84F2 /* IsaacHack */;
+			target = 36574557187ED709005C84F2 /* TheHackingOfIsaac */;
 			targetProxy = 3657457D187ED709005C84F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,9 +433,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IsaacHack/IsaacHack-Prefix.pch";
-				INFOPLIST_FILE = "IsaacHack/IsaacHack-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "IsaacHack/TheHackingOfIsaac-Prefix.pch";
+				INFOPLIST_FILE = "IsaacHack/TheHackingOfIsaac-Info.plist";
+				PRODUCT_NAME = TheHackingOfIsaac;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,9 +446,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IsaacHack/IsaacHack-Prefix.pch";
-				INFOPLIST_FILE = "IsaacHack/IsaacHack-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "IsaacHack/TheHackingOfIsaac-Prefix.pch";
+				INFOPLIST_FILE = "IsaacHack/TheHackingOfIsaac-Info.plist";
+				PRODUCT_NAME = TheHackingOfIsaac;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -421,8 +468,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "IsaacHackTests/IsaacHackTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "IsaacHackTests/TheHackingOfIsaacTests-Info.plist";
+				PRODUCT_NAME = TheHackingOfIsaacTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -439,8 +486,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IsaacHack/IsaacHack-Prefix.pch";
-				INFOPLIST_FILE = "IsaacHackTests/IsaacHackTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "IsaacHackTests/TheHackingOfIsaacTests-Info.plist";
+				PRODUCT_NAME = TheHackingOfIsaacTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -449,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36574553187ED709005C84F2 /* Build configuration list for PBXProject "IsaacHack" */ = {
+		36574553187ED709005C84F2 /* Build configuration list for PBXProject "TheHackingOfIsaac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36574587187ED709005C84F2 /* Debug */,
@@ -458,21 +505,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36574589187ED709005C84F2 /* Build configuration list for PBXNativeTarget "IsaacHack" */ = {
+		36574589187ED709005C84F2 /* Build configuration list for PBXNativeTarget "TheHackingOfIsaac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3657458A187ED709005C84F2 /* Debug */,
 				3657458B187ED709005C84F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3657458C187ED709005C84F2 /* Build configuration list for PBXNativeTarget "IsaacHackTests" */ = {
+		3657458C187ED709005C84F2 /* Build configuration list for PBXNativeTarget "TheHackingOfIsaacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3657458D187ED709005C84F2 /* Debug */,
 				3657458E187ED709005C84F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

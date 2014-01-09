@@ -11,5 +11,8 @@
 @interface NDAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *onOff;
+
+- (IBAction)refresh:(id)sender;
 
 @end
